@@ -11,9 +11,9 @@ public class PanelWindowController : MonoBehaviour
     [SerializeField] GameObject Panel_Check;
     [SerializeField] GameObject Panel_ToBattleScene;
 
-    public GameObject MyMonster;
+    [SerializeField] public GameObject MyMonster;
 
-    public MyMonsterStatus myStats;
+    [SerializeField] public MyMonsterStatus myStats;
 
     [SerializeField] private AudioClip command;
     [SerializeField] private AudioSource AudioS;
@@ -26,8 +26,8 @@ public class PanelWindowController : MonoBehaviour
         Panel_Check.SetActive(false);
         Panel_ToBattleScene.SetActive(false);
 
-        MyMonster=GameObject.Find("Dragon");
-        myStats=MyMonster.GetComponent<MyMonsterStatus>();
+        //MyMonster=GameObject.Find("Dragon");
+        //myStats=MyMonster.GetComponent<MyMonsterStatus>();
 
     }
 

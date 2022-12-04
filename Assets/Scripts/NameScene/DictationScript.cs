@@ -16,16 +16,16 @@ public class DictationScript : MonoBehaviour
     private Text m_Recognitions;
 
     private DictationRecognizer m_DictationRecognizer;
-    public GameObject MyMonster;
+    [SerializeField] public GameObject MyMonster;
 
-    public MyMonsterStatus myStats;
+    [SerializeField] public MyMonsterStatus myStats;
     private string _name;
 
     void Start()
     {
         
-        MyMonster=GameObject.Find("Dragon");
-        myStats=MyMonster.GetComponent<MyMonsterStatus>();
+        //MyMonster=GameObject.Find("Dragon");
+        //myStats=MyMonster.GetComponent<MyMonsterStatus>();
 
         /*
         m_DictationRecognizer = new DictationRecognizer();

@@ -3545,8 +3545,8 @@ MonoBehaviour:
   Panel_Naming: {fileID: 1202647594}
   Panel_Check: {fileID: 24507891}
   Panel_ToBattleScene: {fileID: 1484342949}
-  MyMonster: {fileID: 0}
-  myStats: {fileID: 0}
+  MyMonster: {fileID: 1269814281610149}
+  myStats: {fileID: 1962417813}
   command: {fileID: 8300000, guid: 85b0bf55eb2ddd342a82d12ebe156236, type: 3}
   AudioS: {fileID: 1187628053}
 --- !u!4 &1187628052
@@ -4247,8 +4247,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Hypotheses: {fileID: 125575218}
   m_Recognitions: {fileID: 1158777142}
-  MyMonster: {fileID: 0}
-  myStats: {fileID: 0}
+  MyMonster: {fileID: 1269814281610149}
+  myStats: {fileID: 1962417813}
 --- !u!4 &1311352483
 Transform:
   m_ObjectHideFlags: 0
@@ -5654,8 +5654,8 @@ MonoBehaviour:
   _str1: "\u3042\u306A\u305F\u306E\u30E2\u30F3\u30B9\u30BF\u30FC\u306E\u540D\u524D\u306F"
   _str2: "\u3067\u3059\u304B\uFF1F"
   _MassageText: {fileID: 1656221017}
-  _MyMonster: {fileID: 0}
-  myStats: {fileID: 0}
+  _MyMonster: {fileID: 1269814281610149}
+  myStats: {fileID: 1962417813}
 --- !u!114 &1656221022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6172,8 +6172,8 @@ MonoBehaviour:
   _str1: "\u305D\u308C\u3067\u306F"
   _str2: "\u3068\u4E00\u7DD2\u306B\u6226\u3063\u3066\u307F\u307E\u3057\u3087\u3046\uFF01"
   _MassageText: {fileID: 1833741527}
-  _MyMonster: {fileID: 0}
-  myStats: {fileID: 0}
+  _MyMonster: {fileID: 1269814281610149}
+  myStats: {fileID: 1962417813}
 --- !u!114 &1833741532
 MonoBehaviour:
   m_ObjectHideFlags: 0
